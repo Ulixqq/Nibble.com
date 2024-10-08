@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #D39A62;
+    font-family: Roboto;
+}
+
+.header {
+    width: 100%;
+    height: 90px;
+    background-color: #603913;
+    color: #D39A62;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.conteiner {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    padding: 25px 0;
+    justify-content: space-between;
+}
+
+.logotip {
+    width: 70px;
+    height: 70px;
+    border-radius: 500px;
+    margin: -30px 0;
+}
+
+.menu {
+    /* background-color: #603913; */
+    width: 550px;
+    display: flex;
+    align-items: center;
+    margin: -10px 0;
+}
+
+.menu a {
+    color: #D39A62;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.menu a:hover {
+    background-color: #D39A62;
+    color: #603913;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 600px;
+    height: 600px;
+    border-radius: 100%;
+}
+
+h1 {
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 60px;
+    color: #54320f;
+}
+
+.left {
+    /* display: flex;
+    align-items: center; */
+    margin: 150px 100px;
+}
+
+p {
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 25px;
+    /* margin-top: 50px; */
+    margin-bottom: 60px;
+}
+
+.hh2 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: #54320f;
+}
+
+strong {
+    color: #603913;
+}
+
+.mainn {
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px 50px 20px;
+}
+
+.vld1, .vld2 {
+    width: 400px;
+    height: 400px;
+}
+
+.block1 {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+/* .vld2 {
+    width: 400px;
+    height: 500px;
+    float: right;
+} */
+
+.block2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.text2, .text1 {
+    display: flex;
+    align-items: center;
+    width: 800px;
+    height: 500px;
+}
+
+.text {
+    font-size: 40px;
+}
+
+
+
