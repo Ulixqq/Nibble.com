@@ -141,7 +141,7 @@ strong {
 }
 
 @media screen and (max-width: 700px) {
-    .main .header {
+    .main .conteiner {
         flex-direction: column;
     }
 } 
