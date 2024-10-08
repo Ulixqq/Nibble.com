@@ -140,5 +140,10 @@ strong {
     font-size: 40px;
 }
 
+@media screen and (max-width: 700px) {
+    .main .header {
+        flex-direction: column;
+    }
+} 
 
 
